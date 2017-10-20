@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header">
+	<title th:include=":: #title">Generic Title</title>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/student/viewall">Daftar Mahasiswa</a></li>
+		<li><a href="/student/add">Menambah Mahasiswa</a></li>
+	</ul>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css"/>
+</head>
+<body>
+	<div th:fragment="footer">
+		<hr/>
+		<h4>Mata Kuliah APAP</h4>
+	</div>
+</body>
+</html>
